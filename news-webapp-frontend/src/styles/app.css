@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: inter;
+  width: 90%;
+  margin: 0 auto;
+  
+}
+
+.all__article {
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+@media only screen and (min-width: 1780px) {
+  .all__article {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 1580px) {
+  .all__article {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 1120px) {
+  .all__article {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.article {
+  margin:0 auto;
+  max-width: 500px;
+  padding: 30px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  position: relative;
+  background-color: #f2eeee;
+}
+
+.article__image{
+  max-width: 440px;
+}
+.article__title {
+  padding-bottom: 10px;
+  
+}
+
+.head__text {
+  margin-top: 30px;
+  font-size: 60px;
+  width: 100%;
+  font-family: 'Monoton', cursive;
+  border-bottom: 1px black solid;
+  text-align: center;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.article__desc {
+  padding-top: 10px;
+  line-height: 25px;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.article__author {
+  margin-right: 10px;
+  color: purple;
+}
+
+.article__published {
+  margin-right: 10px;
+}
+
+.article__source,
+.article__published {
+  display: inline-block;
+  margin-top: 10px;
+  color: rgb(122, 122, 122);
+}
+
+.article_not_found{
+  font-size: xx-large;
+  font-weight: 500;
+  text-align: center;
+  margin: 100px auto;
+}
+
+.button {
+  background-color: white; /* Green */
+  border: 2px solid #555555;
+  color: black;
+  margin: auto;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 2px;
+  position:absolute;
+    bottom:20px;
+    right:20px;
+}
+
+
+.button-hover:hover {
+  background-color: #555555;
+  color: white;
+}

@@ -1,0 +1,71 @@
+{
+  "status": "ok",
+  "totalResults": 38,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "The Guardian"
+      },
+      "author": "Graeme Wearden",
+      "title": "UK inflation hits 30-year high of 5.5% as cost of living squeeze tightens – business live - The Guardian",
+      "description": "Rolling coverage of the latest economic and financial news",
+      "url": "https://www.theguardian.com/business/live/2022/feb/16/uk-inflation-30-year-high-food-energy-cost-of-living-stock-markets-business-live",
+      "urlToImage": "https://i.guim.co.uk/img/media/3dcf70ccdf057236da4b0ecf0e2015b9726938a9/0_0_4000_2400/master/4000.jpg?width=1200&amp;height=630&amp;quality=85&amp;auto=format&amp;fit=crop&amp;overlay-align=bottom%2Cleft&amp;overlay-width=100p&amp;overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&amp;enable=upscale&amp;s=17f371e7da72defce6e531059d32afe8",
+      "publishedAt": "2022-02-16T08:37:44Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Devon Live"
+      },
+      "author": "Dave Clark",
+      "title": "Major fire: House, oil tank and multiple cars involved in South Devon blaze - updates - Devon Live",
+      "description": "The A379 was closed from the junction with Fore Street in Aveton Gifford and the B3392 at Modbury",
+      "url": "https://www.devonlive.com/news/devon-news/live-a379-aveton-gifford-fire-6665201",
+      "urlToImage": "https://i2-prod.devonlive.com/incoming/article6665384.ece/ALTERNATES/s1200/1_FLszOx4XoAEeuik.jpg",
+      "publishedAt": "2022-02-16T08:12:29Z",
+      "content": "Fire Service statement: House, oil tank and multiple cars involved in huge blaze\r\n The Fire Servcie says: \"Crews were sent to reports of a house on fire, with an adjacent heating oil tank involved. \r… [+1530 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Times"
+      },
+      "author": "Didi Tang",
+      "title": "Xi orders draconian measures as Hong Kong fails to contain Omicron - The Times",
+      "description": "President Xi has ordered the Hong Kong government to “mobilise all forces and resources” to control a fifth wave of coronavirus cases, driven by the Omicron var",
+      "url": "https://www.thetimes.co.uk/article/hong-kong-seeks-aid-as-draconian-rules-fail-to-contain-omicron-xxnd29pfz",
+      "urlToImage": "https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2Fa136a5ac-8e77-11ec-87eb-ee84fabc72c9.jpg?crop=5946%2C3345%2C45%2C264&resize=1200",
+      "publishedAt": "2022-02-16T07:56:00Z",
+      "content": "President Xi has ordered the Hong Kong government to mobilise all forces and resources to control a fifth wave of coronavirus cases, driven by the Omicron variant.\r\nThe city has had 4,285 confirmed c… [+560 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Times"
+      },
+      "author": "Will Pavia",
+      "title": "Prince Andrew's payout to Virginia Giuffre 'is worth its weight in gold' for Queen - The Times",
+      "description": "Experts suggest duke could pay about £10 million after pressure from the royal family",
+      "url": "https://www.thetimes.co.uk/article/prince-andrew-and-virginia-giuffre-agree-settlement-in-sexual-abuse-case-q257kth5m",
+      "urlToImage": "https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2Fedcc0a66-8e7b-11ec-87eb-ee84fabc72c9.jpg?crop=900%2C506%2C25%2C89&resize=1200",
+      "publishedAt": "2022-02-16T07:45:00Z",
+      "content": "The Duke of York has settled the sex assault case filed against him in the US after pressure from the Prince of Wales and the royal family.\r\nPrince Andrew could pay about £10 million to Virginia Giuf… [+519 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Guardian"
+      },
+      "author": "Rupert Neate",
+      "title": "‘We’ve had a run on champagne:’ Biggest UK banker bonuses since financial crash - The Guardian",
+      "description": "Bumper payouts are ‘kick in the teeth for everyone else suffering with the cost of living crisis’, say critics",
+      "url": "https://amp.theguardian.com/business/2022/feb/16/weve-had-a-run-on-champagne-biggest-uk-banker-bonuses-since-financial-crash",
+      "urlToImage": null,
+      "publishedAt": "2022-02-16T06:01:00Z",
+      "content": "Executive pay and bonusesBumper payouts are kick in the teeth for everyone else suffering with the cost of living crisis, say critics\r\nThis week British bankers will start collecting the biggest bonu… [+6776 chars]"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "fullstack-code-challenge",
+  "version": "1.0.0",
+  "description": "This is a simple app that displays the latest news worldwide using the [newsapi.org](https://newsapi.org) service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run dev -w news-webapp-frontend & npm run dev -w news-webapp-backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CondeNast/fullstack-code-challenge.git"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.10.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CondeNast/fullstack-code-challenge/issues"
+  },
+  "workspaces": [
+    "news-webapp-*"
+  ],
+  "homepage": "https://github.com/CondeNast/fullstack-code-challenge#readme"
+}

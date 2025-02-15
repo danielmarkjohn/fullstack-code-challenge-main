@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "totalResults": 14079,
+  "articles": [
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "https://www.facebook.com/bbcnews",
+      "title": "Queen announces future 'Queen Camilla' in message",
+      "description": "Camilla should have the title when Charles becomes King, the Queen says in a message to mark her Platinum Jubilee.",
+      "url": "https://www.bbc.co.uk/news/uk-60274816",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1411D/production/_123150228_hi073555227.jpg",
+      "publishedAt": "2022-02-05T22:00:32Z",
+      "content": "By Sean CoughlanRoyal correspondent\r\nImage source, Chris Jackson\r\nThe Queen has announced she wants Camilla, the Duchess of Cornwall, to be known as Queen when Prince Charles becomes King.\r\nIn a mess… [+2509 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Max Foster and Lauren Said-Moorhouse, CNN",
+      "title": "Camilla will be Queen: Elizabeth II uses Platinum Jubilee message to elevate Charles' second wife",
+      "description": "Britain's Queen Elizabeth II has used the historic milestone of her Platinum Jubilee to redefine the future of the monarchy, calling for the Duchess of Cornwall to be known as Queen Camilla when Charles becomes King.",
+      "url": "https://www.cnn.com/2022/02/05/uk/queen-elizabeth-ii-platinum-jubilee-accession-day-gbr-intl/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220205085536-01-queen-elizabeth-platinum-jubilee-reception-0205-super-tease.jpg",
+      "publishedAt": "2022-02-05T22:05:16Z",
+      "content": "London (CNN)Britain's Queen Elizabeth II has used the historic milestone of her Platinum Jubilee to redefine the future of the monarchy, calling for the Duchess of Cornwall to be known as Queen Camil… [+5348 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Times"
+      },
+      "author": "Richard Sandomir",
+      "title": "Lusia Harris, ‘Queen of Basketball,’ Dies at 66",
+      "description": "She was the only woman officially drafted by the N.B.A. and the first Black woman inducted into the Basketball Hall of Fame.",
+      "url": "https://www.nytimes.com/2022/01/20/sports/basketball/lusia-harris-dead.html",
+      "urlToImage": "https://static01.nyt.com/images/2022/01/20/obituaries/20Harris1/20Harris1-facebookJumbo.jpg",
+      "publishedAt": "2022-01-21T04:12:55Z",
+      "content": "The mens team didnt sell out as well as the womens team, Harris said in The Queen of Basketball (2021), a short documentary film about her, directed by Ben Proudfoot, that premiered at the Tribeca Fe… [+1559 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "https://www.facebook.com/bbcnews",
+      "title": "Queen's Platinum Jubilee music released by British-Israeli composer",
+      "description": "British-Israel composer Loretta Kay-Feld says a royal \"close to the Queen\" made a personal request.",
+      "url": "https://www.bbc.co.uk/news/world-middle-east-60153456",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/AD45/production/_123075344_9fd8b72b-1c2d-4fd0-aeca-bcb793458a9f.jpg",
+      "publishedAt": "2022-02-05T00:55:39Z",
+      "content": "By Raffi BergBBC News Online Middle East editor\r\nImage source, Loretta Kay-Feld\r\nImage caption, Loretta Kay-Feld says she was \"absolutely thrilled to be asked\" to compose the music\r\nPieces of music s… [+2891 chars]"
+    }
+  ]
+}
