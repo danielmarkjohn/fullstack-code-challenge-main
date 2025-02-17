@@ -16,7 +16,6 @@ export function NewsContextProvider(props) {
         },
       })
       .then((response) => {
-        console.log(response.data);
         setData(response.data);
       })
       .catch((error) => console.log(error));
