@@ -12,10 +12,11 @@ export function NewsContextProvider(props) {
     newsapi
       .get(TOP_HEADLINES_SUBDIRECTORY, {
         params: {
-          country: "gb",
+          country: "us",
         },
       })
       .then((response) => {
+        console.log(response.data);
         setData(response.data);
       })
       .catch((error) => console.log(error));

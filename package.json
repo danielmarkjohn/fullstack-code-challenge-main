@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npm run dev -w news-webapp-frontend & npm run dev -w news-webapp-backend"
+    "dev": "concurrently \"npm run dev -w news-webapp-frontend\" \"npm run dev -w news-webapp-backend\"",
+    "start": "npm start -w news-webapp-backend"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CondeNast/fullstack-code-challenge.git"
+    "url": "git+https://github.com/danielmarkjohn/fullstack-code-challenge-main.git"
   },
   "engines": {
     "node": ">=16.0.0",
@@ -18,10 +19,14 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CondeNast/fullstack-code-challenge/issues"
+    "url": "https://github.com/danielmarkjohn/fullstack-code-challenge-main/issues"
   },
   "workspaces": [
-    "news-webapp-*"
+    "news-webapp-frontend",
+    "news-webapp-backend"
   ],
-  "homepage": "https://github.com/CondeNast/fullstack-code-challenge#readme"
+  "homepage": "https://github.com/danielmarkjohn/fullstack-code-challenge-main#readme",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
 }

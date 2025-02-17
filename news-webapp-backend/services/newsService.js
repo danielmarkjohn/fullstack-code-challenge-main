@@ -3,12 +3,18 @@ const axios = require('axios');
 // Fetch top headlines
 const fetchTopHeadlines = async (country) => {
   try {
+    console.log('Response headers:',  country,
+      process.env.API_KEY,
+    );
+
     const response = await axios.get(`${process.env.NEWSAPI_URL}/top-headlines`, {
       params: { country },
       headers: {
         'X-Api-Key': process.env.API_KEY,
       },
     });
+    console.log('Response NEWS:', response.data);
+
     return response.data;
   } catch (error) {
     console.error('Headers:', { 'X-Api-Key': process.env.API_KEY });
