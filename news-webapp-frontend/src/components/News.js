@@ -12,6 +12,7 @@ import {
   Select,
   MenuItem,
   Stack,
+  CircularProgress,
 } from "@mui/material";
 
 function News() {
@@ -152,7 +153,7 @@ function News() {
           </>
         )
       ) : (
-        <Loader />
+        <CircularProgress />
       )}
     </Box>
   );

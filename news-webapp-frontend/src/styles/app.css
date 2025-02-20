@@ -118,3 +118,7 @@ body {
   background-color: #555555;
   color: white;
 }
+
+.loader {
+  position: absolute;
+}

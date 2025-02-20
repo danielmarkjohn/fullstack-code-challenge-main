@@ -13,6 +13,7 @@ import {
   Stack,
   Paper,
   Container,
+  CircularProgress,
 } from "@mui/material";
 
 function SearchBar() {
@@ -21,10 +22,14 @@ function SearchBar() {
   const [searchText, setSearchText] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const { setData, data } = useContext(NewsContext);
+  const [loading, setLoading] = useState(false);
 
   // Search by keyword
   const searchKeyword = async () => {
+    setLoading(true);
+
     if (!searchText.trim()) {
+      setLoading(false);
       setInputError("Please enter a search term");
       return;
     }
@@ -37,9 +42,13 @@ function SearchBar() {
           pageSize: 100,
         },
       });
+      if (response) {
+        setLoading(false);
+      }
       setData(response.data);
       setInputError(""); // Clear any previous errors
     } catch (error) {
+      setLoading(false);
       setInputError("Failed to fetch articles. Please try again.");
       console.error("Search error:", error);
     }
@@ -152,6 +161,7 @@ function SearchBar() {
         >
           Search
         </Button>
+        {loading && <CircularProgress className="loader"/>}
       </Stack>
     </Paper>
   );
